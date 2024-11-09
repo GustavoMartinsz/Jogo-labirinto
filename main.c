@@ -160,7 +160,7 @@ void iniciarJogo() {
     Jogador jogador = {.x = 1, .y = 1, .vida = 100, .pontuacao = 0, .temChave = 0};
     char faseArquivo[30];
 
-    printf("Digite o seu nome: ");
+    printf("Digite o nome do jogador: ");
     scanf(" %[^\n]s", jogador.nome);
 
     int jogadorSalvo = 0; // Variável para controlar se o jogador foi salvo
